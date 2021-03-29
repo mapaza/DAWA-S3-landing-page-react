@@ -18,8 +18,15 @@ const Header = (props) => {
         <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg font-cuerpo">Iniciar Sesión</button>
       </div>
     </div>
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img class="object-cover object-center rounded" alt="hero" src="https://www.nicepng.com/png/detail/332-3329966_the-woofin-paws-pet-fashion-show-starts-at.png"></img>
+    <div class="relative py-3 sm:max-w-xl sm:mx-auto">
+    <div class="absolute inset-0 bg-gradient-to-r from-green-100 via-white to-green-200 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
+    <div class="relative px-5 py-5 bg-white shadow-lg sm:rounded-3xl sm:p-5">
+      <div class="max-w-md mx-auto">
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <img class="object-cover object-center rounded" alt="hero" src="https://www.nicepng.com/png/detail/332-3329966_the-woofin-paws-pet-fashion-show-starts-at.png"></img>
+        </div>
+        </div>
+        </div>
     </div>
   </div>
 </section>
